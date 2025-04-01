@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Agarbatti', 'Cigarette']
+
+roboflow:
+  workspace: m-lspoq
+  project: co-detection
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/m-lspoq/co-detection/dataset/1
